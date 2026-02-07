@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Valentine Click Me</title>
+</head>
+
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    font-family: 'Segoe UI', Arial, sans-serif;
+  }
+
+.card {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 40px 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+
+  /* Optional blur (won’t break if unsupported) */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+
+  .card h1 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  .valentine-btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #fff;
+    color: #ff4d6d;
+    text-decoration: none;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+
+  .valentine-btn:hover {
+    transform: scale(1.08);
+    background: #ffe6ec;
+  }
+</style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Happy Valentine’s 💖</h1>
+    <a href="https://giphy.com/gifs/middle-finger-show-BXHtzkBTqd9dAemgCL" class="valentine-btn">Click me 💕</a>
+  </div>
+</body>
+</html>
